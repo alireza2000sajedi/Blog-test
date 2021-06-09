@@ -1,0 +1,19 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Repositories\Src\BaseRepository;
+use App\Repositories\Contracts\{{ class }}Interface;
+
+class {{ class }} extends BaseRepository implements {{ class }}Interface
+{
+    /**
+     * Specify Model class name
+     *
+     * @return string
+     */
+    public function model()
+    {
+        //return;
+    }
+}
